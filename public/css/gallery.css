@@ -1,0 +1,69 @@
+#gallery{
+    width:80%;
+    margin: auto;
+    height:80vh;
+    position: relative;
+}
+#top_right{
+    width:30%;
+    height:60%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+#bottom_right{
+    width:30%;
+    height:40%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#middle_card{
+    width:40%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform:translateX(-50%);
+}
+#top_left{
+    width:30%;
+    height:50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#bottom_left{
+    width:30%;
+    height:50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.wrapper{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.wrapper img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.wrapper .text{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    z-index: 2;
+    opacity: 0;
+    transition: all ease-in-out 350ms;
+
+
+    
+}
+.wrapper:hover .text{
+    opacity: 1;
+
+}

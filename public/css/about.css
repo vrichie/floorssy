@@ -1,0 +1,12 @@
+#about{
+    width: 100%;
+    height: 70vh;
+    border:1px solid;
+}
+#experience{
+    display: none;
+    transition: all ease-in-out 350ms;
+}
+#mission{
+    transition: all ease-in-out 350ms;
+}
