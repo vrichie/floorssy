@@ -1,8 +1,5 @@
 #gallery{
-    width:80%;
-    margin: auto;
-    height:80vh;
-    position: relative;
+    height: 100vh;
 }
 #top_right{
     width:30%;
@@ -66,4 +63,30 @@
 .wrapper:hover .text{
     opacity: 1;
 
+}
+#mobile_wrapper{
+    height:100vh;
+    display:none;
+}
+
+
+@media (max-width: 768px){
+    #gallery{
+        height: fit-content;
+    }
+
+}
+
+
+@media (max-width: 425px){
+    #gallery{
+        height: fit-content;
+    }   
+    #gallery_wrapper{
+        display:none;
+    }
+    #mobile_wrapper{
+        display: flex;
+        height:150vh;
+    }
 }

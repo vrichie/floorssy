@@ -20,6 +20,10 @@
         <link href="{{ asset('css/about.css') }}" rel="stylesheet">
         <link href="{{ asset('css/pricing.css') }}" rel="stylesheet">
         <link href="{{ asset('css/testimony.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/projects.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/faq.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/footer.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/sub-header.css') }}" rel="stylesheet">
 
         
     </head>

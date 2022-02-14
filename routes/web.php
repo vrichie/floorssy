@@ -15,3 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
+
+Route::get('/about', [HomeController::class, 'about'])->name('home.about');
+Route::get('/gallery', [HomeController::class, 'gallery'])->name('home.gallery');
+Route::get('/pricing', [HomeController::class, 'pricing'])->name('home.pricing');
+Route::get('/contacts', [HomeController::class, 'contacts'])->name('home.contacts');

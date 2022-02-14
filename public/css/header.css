@@ -3,6 +3,27 @@
     height: 100vh;
     position: relative;
 }
+#sub_header{
+    width: 100vw;
+    height: 60vh;
+    overflow: hidden;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+#Subheader_thingy{
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+#bg-image_sub{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    filter: brightness(70%);
+}
+
 nav{
     z-index: 2;
 }
@@ -15,8 +36,6 @@ nav{
 }
 
 ul a li img{
-    width:20px;
-    height: 20px;
     filter: invert(.9);
 }ul a li{
     transition: all ease-in-out 350ms;
@@ -50,4 +69,23 @@ button{
     color: #fbbf24;
     background-color: transparent;
     border-color: #fbbf24;
+}
+#cancel{
+    display: none;
+}
+#menu{
+    display: none;
+}
+
+
+@media (max-width: 425px){
+#social-icons{
+    display: none;
+}
+#links{
+    display:none;
+}
+#menu{
+    display:flex;
+}
 }

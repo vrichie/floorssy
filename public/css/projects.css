@@ -1,0 +1,9 @@
+#projects{
+    height:100vh;
+    margin: auto;
+}
+@media (max-width: 425px){
+    #projects{
+        height: fit-content;
+    }
+}

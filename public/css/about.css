@@ -1,7 +1,6 @@
 #about{
     width: 100%;
-    height: 70vh;
-    border:1px solid;
+    height: 100vh;
 }
 #experience{
     display: none;
@@ -9,4 +8,13 @@
 }
 #mission{
     transition: all ease-in-out 350ms;
+}
+
+
+@media (max-width: 425px){
+    #about{
+        width: 100%;
+        height: fit-content;
+    }
+
 }

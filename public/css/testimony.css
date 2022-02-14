@@ -13,3 +13,9 @@
     height:24px;
     width: 24px;
 }
+
+@media (max-width: 768px){
+    #testimony{
+        height:fit-content;
+    }
+}
