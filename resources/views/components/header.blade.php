@@ -1,5 +1,7 @@
 <div id="header" class="relative flex flex-col items-center">
     <img id="bg-image" src="{{secure_asset('./images/header.jpg')}}"  alt="">
+    <img id="bg-image-mobile" src="{{secure_asset('./images/m_header.jpg')}}"  alt="">
+
 
 
     <x-nav/>
