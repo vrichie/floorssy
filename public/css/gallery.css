@@ -1,5 +1,7 @@
 #gallery{
     height: 100vh;
+
+    overflow-x: hidden;
 }
 #top_right{
     width:30%;

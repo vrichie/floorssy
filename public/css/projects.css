@@ -1,5 +1,7 @@
 #projects{
     height:100vh;
+
+    overflow-x: hidden;
     margin: auto;
 }
 @media (max-width: 425px){

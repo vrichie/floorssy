@@ -1,6 +1,6 @@
 <div id="about" class="flex items-center justify-center ">
 
-    <div class=" desktop:w-2/3 laptop:w-4/5 tablet:w-11/12 phone:w-11/12 h-4/5 " id="about_wrapper">
+    <div class=" w-2/3 laptop:w-4/5 tablet:w-11/12 phone:w-11/12 h-4/5 " id="about_wrapper">
         <div class="flex  justify-between  border-b-2 border-amber-400 w-full h-1/5 laptop:h-2/5 phone:h-fit phone:flex-col">
             <h1 class="text-5xl tablet:text-4xl phone:text-3xl phone:w-full my-4 font-medium text-slate-800  font-sans ">
                 Premium  <br/>

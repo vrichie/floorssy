@@ -1,6 +1,8 @@
 #footer{
     width: 100%;
     height:50vh;
+
+    overflow-x: hidden;
 }
 
 .icons{
