@@ -21,7 +21,7 @@
             <img src="{{secure_asset('images/floor.jpg')}}" class="h-4/5 w-1/2 phone:w-full phone:h-1/3 phone:mt-5" alt="">
 
 
-            <div class="h-4/5 w-1/2 flex flex-col justify-between items-center phone:w-full phone:mb-5">
+            <div class="h-4/5 w-1/2 flex flex-col justify-between items-center phone:w-full phone:my-5">
                 <span class="w-5/6 h-fit phone:flex phone:items-center phone:justify-between phone:mb-5">
                     <button id="mission_btn" class="py-4 text-slate-800 px-6 mr-4 bg-slate-200 border-b-8 border-amber-400">
                         MISSION
@@ -32,7 +32,7 @@
                     </button>
                 </span>
 
-                <div id="mission" class="w-5/6 h-2/3 flex flex-col ">
+                <div id="mission" class="w-5/6 h-2/3 flex flex-col phone:w-full">
 
                     <p class="tablet:text-sm font-light mb-2  text-slate-600">
                         We guarantee the highest quality of the products we sell. Several decades of successful operation and millions of happy customers let us feel certain about that. Besides, all items we sell pass thorough quality control, so no characteristics mismatch.
