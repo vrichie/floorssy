@@ -3,9 +3,9 @@
 <div id="sub_header" class="flex flex-col items-center justify-between h-3/5">
 
 
-    <img id="bg-image" src="{{secure_asset('./images/header.jpg')}}"  alt="">
+    <img id="bg-image" src="{{secure_asset('./images/header_sub.jpg')}}"  alt="">
 
-    <img id="bg-image" src="{{secure_asset('./images/header_m.jpg')}}"  alt="">
+    <img id="bg-image-mobile" src="{{secure_asset('./images/header_m.jpg')}}"  alt="">
 
     <x-nav />
 
