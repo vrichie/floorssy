@@ -1,7 +1,7 @@
-<div id="pricing" class="flex items-center justify-center">
+<div id="pricing" class="flex items-center justify-center phone:mb-10">
 
     <div id="pricing_wrapper" class="laptop:w-4/5 tablet:w-11/12 w-2/3 h-5/6 flex items-center phone:flex-col-reverse  phone:w-11/12">
-        <div id="pricing_cards" class="w-1/2 h-2/3 grid phone:w-11/12  grid-cols-2 gap-2 ">
+        <div id="pricing_cards" class="w-1/2 h-2/3 grid phone:w-full  grid-cols-2 gap-2 ">
             <div class=" flex flex-col items-center justify-between  w-5/6 h-5/6 ">
                 <img src="{{secure_asset('images/carrara.jpg')}}" class="w-11/12 h-4/5" alt="">
                 <h2 class="text-xl tablet:text-sm phone:text-sm font-light text-slate-800">

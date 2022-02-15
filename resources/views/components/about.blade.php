@@ -1,4 +1,4 @@
-<div id="about" class="flex items-center justify-center ">
+<div id="about" class="flex items-center justify-center phone:mb-10">
 
     <div class=" w-2/3 laptop:w-4/5 tablet:w-11/12 phone:w-11/12 h-4/5 " id="about_wrapper">
         <div class="flex  justify-between  border-b-2 border-amber-400 w-full h-1/5 laptop:h-2/5 phone:h-fit phone:flex-col">

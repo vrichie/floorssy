@@ -80,11 +80,11 @@
         </ul>
 
         <h5 class="mt-5 text-base tablet:text-sm phone:text-xs">
-            powered by : k_ritchie
+            powered by : <a class="text-amber-600" href="https://k-ritchie.vercel.app/"> k_ritchie</a>
         </h5>
 
 
-        <h6 class="mb-5 text-sm tablet:text-xs">
+        <h6 class="mb-5 text-sm tablet:text-xs phone:text-xs">
             ©Copyright | 2022. All Right Reserved
         </h6>
 
