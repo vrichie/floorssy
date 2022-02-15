@@ -5,6 +5,8 @@
 
     <img id="bg-image" src="{{secure_asset('./images/header.jpg')}}"  alt="">
 
+    <img id="bg-image" src="{{secure_asset('./images/header_m.jpg')}}"  alt="">
+
     <x-nav />
 
 
