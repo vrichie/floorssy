@@ -7,11 +7,11 @@
     <div id="projects_cards" class="w-2/3 laptop:w-4/5 tablet:w-11/12 phone:w-11/12 tablet:h-4/5 h-5/6 flex flex-row phone:flex-col ">
         <div id="left_card" class="w-1/3 flex flex-col phone:w-full items-center justify-between h-full">
             <div class="w-full h-1/3 overflow-hidden">
-                <img src="{{asset('images/product1.jpg')}}" class="h-full min-w-full" alt="">
+                <img src="{{secure_asset('images/product1.jpg')}}" class="h-full min-w-full" alt="">
             </div>
             <div class="w-full h-2/3  overflow-hidden">
 
-                <img src="{{asset('images/product2.jpg')}}" class="h-full min-w-full" alt="">
+                <img src="{{secure_asset('images/product2.jpg')}}" class="h-full min-w-full" alt="">
             </div>
 
         </div>
@@ -20,16 +20,16 @@
         <div id="middle_card " class="w-1/3 phone:w-full flex flex-col items-center justify-between h-full">
             <div class="w-full  h-1/3 overflow-hidden">
             
-                <img src="{{asset('images/product3.jpg')}}" class="h-full min-w-full" alt="">
+                <img src="{{secure_asset('images/product3.jpg')}}" class="h-full min-w-full" alt="">
             </div>
             <div class="w-full h-1/3  overflow-hidden">
 
-                <img src="{{asset('images/product4.jpg')}}" class="h-full min-w-full" alt="">
+                <img src="{{secure_asset('images/product4.jpg')}}" class="h-full min-w-full" alt="">
 
             </div>
             <div class="w-full  h-1/3 overflow-hidden">
 
-                <img src="{{asset('images/product5.jpg')}}" class="h-full min-w-full" alt="">
+                <img src="{{secure_asset('images/product5.jpg')}}" class="h-full min-w-full" alt="">
                 
             </div>
 
@@ -40,7 +40,7 @@
 
             <div class="w-full h-full  overflow-hidden">
 
-                <img src="{{asset('images/product6.jpg')}}" class="h-full w-fit" alt="">
+                <img src="{{secure_asset('images/product6.jpg')}}" class="h-full w-fit" alt="">
 
             </div>
         </div>

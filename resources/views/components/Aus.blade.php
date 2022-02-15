@@ -3,7 +3,7 @@
 <div id="sub_header" class="flex flex-col items-center justify-between h-3/5">
 
 
-    <img id="bg-image" src="{{asset('./images/header.jpg')}}"  alt="">
+    <img id="bg-image" src="{{secure_asset('./images/header.jpg')}}"  alt="">
 
     <x-nav />
 
@@ -16,7 +16,7 @@
             <b class="font-light">Floorssy</b>  <i class="text-amber-400 ">.</i>
             </h1>
         </a>
-         <img src="{{asset('images/icons/right.png')}}" class="mx-5 phone:mx-2" width="40px" alt="">
+         <img src="{{secure_asset('images/icons/right.png')}}" class="mx-5 phone:mx-2" width="40px" alt="">
         <h2 class="text-amber-400 tablet:text-xl phone:text-sm text-2xl">
             {{$title}}
         </h2>

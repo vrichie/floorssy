@@ -1,4 +1,4 @@
-<div id="Faq" style="background-image:url({{asset('images/faq.jpg')}})" class="relative flex bg-fixed bg-cover bg-center phone:pb-10  items-center justify-center my-10">
+<div id="Faq" style="background-image:url({{secure_asset('images/faq.jpg')}})" class="relative flex bg-fixed bg-cover bg-center phone:pb-10  items-center justify-center my-10">
     
     <div class="w-full h-full absolute inset-0 bg-slate-800/70 phone:bg-slate-800/80 brightness-50"></div>
 

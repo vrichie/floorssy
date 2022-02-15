@@ -18,7 +18,7 @@
 
         <div class="flex items-center justify-between  w-full h-4/5 laptop:h-3/5 phone:flex-col phone:w-full">
 
-            <img src="{{asset('images/floor.jpg')}}" class="h-4/5 w-1/2 phone:w-full phone:h-1/3 phone:mt-5" alt="">
+            <img src="{{secure_asset('images/floor.jpg')}}" class="h-4/5 w-1/2 phone:w-full phone:h-1/3 phone:mt-5" alt="">
 
 
             <div class="h-4/5 w-1/2 flex flex-col justify-between items-center phone:w-full phone:mb-5">
@@ -42,31 +42,31 @@
                     <table class="table-fixed w-full text-sm text-slate-700">
                         <tr class="flex flex-row justify-between">
                             <td class="flex items-center ">
-                                <img src="{{asset('images/icons/add.png')}}" class="w-4 h-4" alt="">
+                                <img src="{{secure_asset('images/icons/add.png')}}" class="w-4 h-4" alt="">
                                 Floor & Wall Tile
                             </td>
                             <td class="flex items-center ">
-                                <img src="{{asset('images/icons/add.png')}}" class="w-4 h-4" alt="">
+                                <img src="{{secure_asset('images/icons/add.png')}}" class="w-4 h-4" alt="">
                                 Kitchen Tile
                             </td>
                         </tr>
                         <tr class="flex flex-row justify-between">
                             <td class="flex items-center ">
-                                <img src="{{asset('images/icons/add.png')}}" class="w-4 h-4" alt="">
+                                <img src="{{secure_asset('images/icons/add.png')}}" class="w-4 h-4" alt="">
                                 Shower Tile
                             </td>
                             <td class="flex items-center ">
-                                <img src="{{asset('images/icons/add.png')}}" class="w-4 h-4" alt="">
+                                <img src="{{secure_asset('images/icons/add.png')}}" class="w-4 h-4" alt="">
                                 Outdoor Tile
                             </td>
                         </tr>
                         <tr class="flex flex-row justify-between">
                             <td class="flex items-center ">
-                                <img src="{{asset('images/icons/add.png')}}" class="w-4 h-4" alt="">
+                                <img src="{{secure_asset('images/icons/add.png')}}" class="w-4 h-4" alt="">
                                 Bathroom Tile
                             </td>
                             <td class="flex items-center ">
-                                <img src="{{asset('images/icons/add.png')}}" class="w-4 h-4" alt="">
+                                <img src="{{secure_asset('images/icons/add.png')}}" class="w-4 h-4" alt="">
                                 Ceiling Tile
                             </td>
                         </tr>

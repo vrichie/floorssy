@@ -13,7 +13,7 @@
 
             <div class="w-1/2 laptop:w-full tablet:w-4/5  ">
                 <span class="flex items-center justify-between my-3 text-slate-600 w-full ">
-                    <img src="{{asset('images/icons/location.png')}}""  class="icons" alt="">
+                    <img src="{{secure_asset('images/icons/location.png')}}""  class="icons" alt="">
                     <p class="tablet:text-sm phone:text-xs">
                         123, New Lenox <br/>
                         New York,IL 60605
@@ -22,7 +22,7 @@
 
 
                 <span class="flex items-center justify-between my-3 text-slate-600 w-full">
-                    <img src="{{asset('images/icons/phone.png')}}""  al class="icons"t="">
+                    <img src="{{secure_asset('images/icons/phone.png')}}""  al class="icons"t="">
                     <p class="tablet:text-sm phone:text-xs">
                         (123) 70504221 <br/>
                         (123) 83460605
@@ -31,7 +31,7 @@
 
 
                 <span class="flex items-center justify-between my-3 text-slate-600 w-full">
-                    <img src="{{asset('images/icons/email.png')}}""  al class="icons"t="">
+                    <img src="{{secure_asset('images/icons/email.png')}}""  al class="icons"t="">
                     <p class="tablet:text-sm phone:text-xs" >
                         info@floorssy.com <br/>
                         mail@floorssy.com
@@ -56,25 +56,25 @@
         <ul class="flex w-1/3 tablet:w-1/2 my-8 justify-evenly">
             <a href="">
                 <li>
-                    <img src="{{ asset('images/icons/twitter.png') }}"   class="icons"  alt="">
+                    <img src="{{ secure_asset('images/icons/twitter.png') }}"   class="icons"  alt="">
                 </li>
             </a>
 
             <a href="">
                 <li>
-                    <img src="{{ asset('images/icons/fb.png') }}"   class="icons"  alt="">
+                    <img src="{{ secure_asset('images/icons/fb.png') }}"   class="icons"  alt="">
                 </li>
             </a>
 
             <a href="">
                 <li>
-                    <img src="{{ asset('images/icons/pinterest.png') }}"  class="icons"  alt="">
+                    <img src="{{ secure_asset('images/icons/pinterest.png') }}"  class="icons"  alt="">
                 </li>
             </a>
 
             <a href="">
                 <li>
-                    <img src="{{ asset('images/icons/ig.png') }}"   class="icons"  alt="">
+                    <img src="{{ secure_asset('images/icons/ig.png') }}"   class="icons"  alt="">
                 </li>
             </a>
         </ul>

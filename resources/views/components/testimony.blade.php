@@ -13,7 +13,7 @@
             </p>
 
             <div id="testament_card" class="flex items-center justify-between w-full h-3/6 bg-amber-400/20 phone:flex-col">
-                <img src="{{asset('images/testament.jpg')}}" class="w-1/3 h-5/6 phone:w-full phone:h-1/2" alt="">
+                <img src="{{secure_asset('images/testament.jpg')}}" class="w-1/3 h-5/6 phone:w-full phone:h-1/2" alt="">
                 <div id="card_text" class="w-3/5 phone:w-full mr-2 phone:m-auto phone:pt-5">
                     <h3 class="text-xl phone:text-lg text-slate-800 font-medium font-sans">
                         RUPERT WOOD
@@ -26,29 +26,29 @@
 
                     </p>
 
-                    <img src="{{asset('images/icons/quote.png')}}" id="quotes" alt="">
+                    <img src="{{secure_asset('images/icons/quote.png')}}" id="quotes" alt="">
                 </div>
             </div>
         </div>
         <div id="colection" class="w-1/3 tablet:w-5/6 tablet:pt-10 tablet:h-1/2 phone:w-11/12 phone:pt-10 phone:h-1/2  laptop:h-1/2  h-5/6 mx-5 grid grid-cols-2 gap-2 phone:flex phone:flex-col phone:align-center phone:justify-evenly">
 
             <div class=" w-full h-11/12 phone:h-1/4 m-auto">
-                <img src="{{asset('images/client1.jpg')}}" class="w-full h-full" alt="">
+                <img src="{{secure_asset('images/client1.jpg')}}" class="w-full h-full" alt="">
                 
             </div>
 
             <div class=" w-full h-11/12 phone:h-1/4 m-auto">
-                <img src="{{asset('images/client2.jpg')}}" class="w-full h-full" alt="">
+                <img src="{{secure_asset('images/client2.jpg')}}" class="w-full h-full" alt="">
                 
             </div>
 
             <div class=" w-full h-11/12 phone:h-1/4 m-auto">
-                <img src="{{asset('images/client3.jpg')}}" class="w-full h-full" alt="">
+                <img src="{{secure_asset('images/client3.jpg')}}" class="w-full h-full" alt="">
                 
             </div>
 
             <div class=" w-full h-11/12 phone:h-1/4 m-auto">
-                <img src="{{asset('images/client4.jpg')}}" class="w-full h-full" alt="">
+                <img src="{{secure_asset('images/client4.jpg')}}" class="w-full h-full" alt="">
                 
             </div>
 

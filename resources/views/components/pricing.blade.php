@@ -3,7 +3,7 @@
     <div id="pricing_wrapper" class="laptop:w-4/5 tablet:w-11/12 w-2/3 h-5/6 flex items-center phone:flex-col-reverse  phone:w-11/12">
         <div id="pricing_cards" class="w-1/2 h-2/3 grid phone:w-11/12  grid-cols-2 gap-2 ">
             <div class=" flex flex-col items-center justify-between  w-5/6 h-5/6 ">
-                <img src="{{asset('images/carrara.jpg')}}" class="w-11/12 h-4/5" alt="">
+                <img src="{{secure_asset('images/carrara.jpg')}}" class="w-11/12 h-4/5" alt="">
                 <h2 class="text-xl tablet:text-sm phone:text-sm font-light text-slate-800">
                     CARRARA MARBLE
                 </h2>
@@ -14,7 +14,7 @@
             </div>
 
             <div class=" flex flex-col items-center justify-between  w-5/6 h-5/6 ">
-                <img src="{{asset('images/polished.jpg')}}" class="w-11/12 h-4/5" alt="">
+                <img src="{{secure_asset('images/polished.jpg')}}" class="w-11/12 h-4/5" alt="">
                 <h2 class="text-xl tablet:text-sm phone:text-sm font-light text-slate-800">
                     POLISHED MARBLE
                 </h2>
@@ -25,7 +25,7 @@
             </div>
 
             <div class=" flex flex-col items-center justify-between  w-5/6 h-5/6 ">
-                <img src="{{asset('images/bastile.jpg')}}" class="w-11/12 h-4/5" alt="">
+                <img src="{{secure_asset('images/bastile.jpg')}}" class="w-11/12 h-4/5" alt="">
                 <h2 class="text-xl tablet:text-sm phone:text-sm font-light text-slate-800">
                     BASTILLE GRAY
                 </h2>
@@ -36,7 +36,7 @@
             </div>
 
             <div class=" flex flex-col items-center justify-between  w-5/6 h-5/6 ">
-                <img src="{{asset('images/bayclif.jpg')}}" class="w-11/12 h-4/5" alt="">
+                <img src="{{secure_asset('images/bayclif.jpg')}}" class="w-11/12 h-4/5" alt="">
                 <h2 class="text-xl tablet:text-sm phone:text-sm font-light text-slate-800">
                     BAYCLIFF CAUFEILD
                 </h2>
@@ -52,7 +52,7 @@
                 <b class="font-medium"> Trending</b> <span class="text-amber-400"> Product .</span>
             </h1>
 
-            <img src="{{asset('images/floor.jpg')}}" class="w-full h-1/2 phone:h-1/3 phone:mb-5" alt="">
+            <img src="{{secure_asset('images/floor.jpg')}}" class="w-full h-1/2 phone:h-1/3 phone:mb-5" alt="">
 
             <p class="text-base tablet:text-sm phone:text-sm font-light text-slate-600">
                 Design and manufacture the highest-quality European antique replicas as well as our own unique transitional designs, which are distributed to the best shops and interior designers throughout North America, U.K., Spain, Italy, and France, just to name a few. 

@@ -8,7 +8,7 @@
 
         <div id="top_right" class="phone:w-full phone:h-1/5">
             <div class="wrapper flex items-center justify-center">
-                <img src="{{asset('images/laminate.jpg')}}" alt="">
+                <img src="{{secure_asset('images/laminate.jpg')}}" alt="">
                 <div class="text flex items-center justify-center bg-gray-900/70">
                     <h1 class="text-5xl text-slate-100">
                         laminate
@@ -21,7 +21,7 @@
 
         <div id="bottom_right" class="phone:w-full phone:h-1/5">
             <div class="wrapper flex items-center justify-center">
-                <img src="{{asset('images/carpet.jpg')}}" alt="">
+                <img src="{{secure_asset('images/carpet.jpg')}}" alt="">
                 <div class="text flex items-center justify-center bg-gray-900/70">
                     <h1 class="text-5xl text-slate-100">
                         Carpets
@@ -35,7 +35,7 @@
 
         <div id="middle_card" class="phone:w-full phone:h-1/5">
             <div class="wrapper flex items-center justify-center">
-                <img src="{{asset('images/toilet.jpg')}}" alt="">
+                <img src="{{secure_asset('images/toilet.jpg')}}" alt="">
                 <div class="text flex items-center justify-center bg-gray-900/70">
                     <h1 class="text-5xl text-slate-100">
                         Stone
@@ -53,7 +53,7 @@
 
         <div id="top_left" class="phone:w-full phone:h-1/5">
             <div class="wrapper flex items-center justify-center">
-                <img src="{{asset('images/kitchen.jpg')}}" alt="">
+                <img src="{{secure_asset('images/kitchen.jpg')}}" alt="">
                 <div class="text flex items-center justify-center bg-gray-900/70">
                     <h1 class="text-5xl text-slate-100">
                         Kitchen tile
@@ -66,7 +66,7 @@
 
         <div id="bottom_left" class="phone:w-full phone:h-1/5">
             <div class="wrapper flex items-center justify-center">
-                <img src="{{asset('images/floorr.jpg')}}" alt="">
+                <img src="{{secure_asset('images/floorr.jpg')}}" alt="">
                 <div class="text flex items-center justify-center bg-gray-900/70">
                     <h1 class="text-5xl text-slate-100">
                         Floor tile
@@ -84,7 +84,7 @@
     <div id="mobile_wrapper" class=" w-11/12  flex flex-col items-center justify-evenly ">
         <div  class="phone:w-full phone:h-1/5 my-2">
             <div class="wrapper flex items-center justify-center">
-                <img src="{{asset('images/laminate.jpg')}}" alt="">
+                <img src="{{secure_asset('images/laminate.jpg')}}" alt="">
                 <div class="text flex items-center justify-center bg-gray-900/70">
                     <h1 class="text-3xl  text-slate-100">
                         laminate
@@ -97,7 +97,7 @@
 
         <div  class="phone:w-full phone:h-1/5 my-2">
             <div class="wrapper flex items-center justify-center">
-                <img src="{{asset('images/carpet.jpg')}}" alt="">
+                <img src="{{secure_asset('images/carpet.jpg')}}" alt="">
                 <div class="text flex items-center justify-center bg-gray-900/70">
                     <h1 class="text-3xl text-slate-100">
                         Carpets
@@ -111,7 +111,7 @@
 
         <div  class="phone:w-full phone:h-1/5 my-2">
             <div class="wrapper flex items-center justify-center">
-                <img src="{{asset('images/toilet.jpg')}}" alt="">
+                <img src="{{secure_asset('images/toilet.jpg')}}" alt="">
                 <div class="text flex items-center justify-center bg-gray-900/70">
                     <h1 class="text-3xl text-slate-100">
                         Stone
@@ -129,7 +129,7 @@
 
         <div  class="phone:w-full phone:h-1/5 my-2">
             <div class="wrapper flex items-center justify-center">
-                <img src="{{asset('images/kitchen.jpg')}}" alt="">
+                <img src="{{secure_asset('images/kitchen.jpg')}}" alt="">
                 <div class="text flex items-center justify-center bg-gray-900/70">
                     <h1 class="text-3xl text-slate-100">
                         Kitchen tile
@@ -142,7 +142,7 @@
 
         <div  class="phone:w-full phone:h-1/5 my-2">
             <div class="wrapper flex items-center justify-center">
-                <img src="{{asset('images/floorr.jpg')}}" alt="">
+                <img src="{{secure_asset('images/floorr.jpg')}}" alt="">
                 <div class="text flex items-center justify-center bg-gray-900/70">
                     <h1 class="text-3xl text-slate-100">
                         Floor tile
